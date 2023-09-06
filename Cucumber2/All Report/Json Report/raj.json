@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-01T19:41:14.716Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16882801900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.abc()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "to validate the login with username and password",
+        "description": "",
+        "id": "validate-the-login-functionality-in-restockit;to-validate-the-login-with-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7019582200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User have to validate username and password",
+            "match": {
+              "location": "Stepdefinition.user_have_to_validate_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23303575100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Choose the product and add to cart",
+            "match": {
+              "location": "Stepdefinition.choose_the_product_and_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128635900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check if the product is added in cart",
+            "match": {
+              "location": "Stepdefinition.check_if_the_product_is_added_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login functionality in Restockit",
+    "description": "Given Launch the restockit URL",
+    "id": "validate-the-login-functionality-in-restockit",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/rajesh.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
